@@ -21,4 +21,4 @@ Um app para uma escola de música chamada "Uma Sinfonia Diferente". No app haver
 ## Layout Inicial
 
 
-![Layout inicial App Empresa]("images/images/app_empresa.png")
+![Layout proposto inicialmente app_empresa](/images/images/app_empresa.png)
