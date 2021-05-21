@@ -19,27 +19,27 @@ Escolher ou criar uma empresa (fictícia) para desenvolver um aplicativo em Flut
 Um app para uma escola de música chamada "Uma Sinfonia Diferente". No app haverá uma 
   - *Home*
   
-    ![Tela Home](/images/images/telas/Home.png)
+    ![Tela Home](/images/images/Telas/Home.png)
   
   - *Sobre* 
   
-    ![Tela Sobre](/images/images/telas/Sobre.png)
+    ![Tela Sobre](/images/images/Telas/Sobre.png)
   
   - *Professores*
   
-    ![Tela Professores](/images/images/telas/Professores.png)
+    ![Tela Professores](/images/images/Telas/Professores.png)
   
   - *Pré Cadastro*
   
-    ![Tela Pre Cadastro](/images/images/telas/PreCadastro.png)
+    ![Tela Pre Cadastro](/images/images/Telas/PreCadastro.png)
   
   - *Professor 1*
   
-    ![Tela Professor 1](/images/images/telas/Professo1.png)
+    ![Tela Professor 1](/images/images/Telas/Professo1.png)
   
   - *Professor 2*
   
-    ![Tela Professor 2](/images/images/telas/Professor2.png)
+    ![Tela Professor 2](/images/images/Telas/Professor2.png)
   
   - *Whatsapp*
   
