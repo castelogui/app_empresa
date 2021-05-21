@@ -85,14 +85,17 @@ class _Professor1State extends State<Professor1> {
               Padding(
                 padding: const EdgeInsets.fromLTRB(0, 50, 0, 0),
                 child: Container(
-                  child: Text(
-                      "Contato",
-                      style: TextStyle(
-                          fontSize: 30,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold
-                      ),
-                      textAlign: TextAlign.center
+                  child: Padding(
+                    padding: const EdgeInsets.fromLTRB(0, 6, 0, 0),
+                    child: Text(
+                        "Contato",
+                        style: TextStyle(
+                            fontSize: 30,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold
+                        ),
+                        textAlign: TextAlign.center
+                    ),
                   ),
                   width: 150,
                   height: 45,
