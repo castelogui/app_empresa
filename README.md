@@ -16,7 +16,13 @@ Escolher ou criar uma empresa (fictícia) para desenvolver um aplicativo em Flut
 
 ## Proposta
 
-Um app para uma escola de música chamada "Uma Sinfonia Diferente". No app haverá uma 
+Um app para uma escola de música chamada "Uma Sinfonia Diferente". 
+
+### Layout Inicial
+
+![Layout proposto inicialmente app_empresa](/images/images/app_empresa.png)
+
+## Telas
   - *Home*
   
     ![Tela Home](/images/images/Telas/Home.png)
@@ -47,7 +53,3 @@ Um app para uma escola de música chamada "Uma Sinfonia Diferente". No app haver
   
   - *Facebook*.
 
-## Layout Inicial
-
-
-![Layout proposto inicialmente app_empresa](/images/images/app_empresa.png)
