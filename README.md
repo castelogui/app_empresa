@@ -14,6 +14,8 @@ Escolher ou criar uma empresa (fictícia) para desenvolver um aplicativo em Flut
 
 - Deverá pesquisar e utilizar o componente chamado Card() em algum lugar dentro do App.
 
+----
+
 ## Proposta
 
 Um app para uma escola de música chamada "Uma Sinfonia Diferente". 
@@ -22,7 +24,10 @@ Um app para uma escola de música chamada "Uma Sinfonia Diferente".
 
 ![Layout proposto inicialmente app_empresa](/images/images/app_empresa.png)
 
+----
+
 ## Telas
+
   - *Home*
   
     ![Tela Home](/images/images/Telas/Home.png)
@@ -41,7 +46,7 @@ Um app para uma escola de música chamada "Uma Sinfonia Diferente".
   
   - *Professor 1*
   
-    ![Tela Professor 1](/images/images/Telas/Professo1.png)
+    ![Tela Professor 1](/images/images/Telas/Professor1.png)
   
   - *Professor 2*
   
