@@ -16,7 +16,13 @@ Escolher ou criar uma empresa (fictícia) para desenvolver um aplicativo em Flut
 
 ## Proposta
 
-Um app para uma escola de música chamada "Uma Sinfonia Diferente". No app haverá botões
+Um app para uma escola de música chamada "Uma Sinfonia Diferente". No app haverá uma **Home** que irá direcionar para 6 telas: 
+  - *Sobre* 
+  - *Professores*
+  - *Pré Cadastro*
+  - *Whatsapp*
+  - *Instagram*
+  - *Facebook*.
 
 ## Layout Inicial
 
