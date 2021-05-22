@@ -1,5 +1,3 @@
-# Readme App Empresa
-
 # 📱App_empresa
 
 ### 📑 Atividade
