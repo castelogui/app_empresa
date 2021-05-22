@@ -1,7 +1,7 @@
 import 'package:app_empresa/pages/pre-cadastro.dart';
 import 'package:app_empresa/pages/professores.dart';
 import 'package:app_empresa/pages/sobre.dart';
-import 'package:flutter/cupertino.dart';
+import 'package:app_empresa/pages/urls/abrirUrl.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
@@ -12,6 +12,9 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+  String urlWP = "https://wa.me/+5569999071519";
+  String urlFB = "https://facebook.com/umasinfoniadiferente";
+  String urlIG = "https://instagram.com/umasinfoniadiferente";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -94,14 +97,19 @@ class _HomeState extends State<Home> {
                               child: Image.asset("images/pre-cadastro.png"),
                             ),
                           ),
-                          Container(
-                            decoration: BoxDecoration(
-                                color: Colors.white,
-                                borderRadius: BorderRadius.circular(25)
+                          GestureDetector(
+                            onTap: (){
+                              abriUrl(urlWP);
+                            },
+                            child: Container(
+                              decoration: BoxDecoration(
+                                  color: Colors.white,
+                                  borderRadius: BorderRadius.circular(25)
+                              ),
+                              width: 100,
+                              height: 100,
+                              child: Image.asset("images/whatsapp.png"),
                             ),
-                            width: 100,
-                            height: 100,
-                            child: Image.asset("images/whatsapp.png"),
                           ),
                         ],
                       ),
@@ -111,23 +119,33 @@ class _HomeState extends State<Home> {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
-                          Container(
-                            decoration: BoxDecoration(
-                                color: Colors.white,
-                                borderRadius: BorderRadius.circular(25)
+                          GestureDetector(
+                            onTap: (){
+                              abriUrl(urlIG);
+                            },
+                            child: Container(
+                              decoration: BoxDecoration(
+                                  color: Colors.white,
+                                  borderRadius: BorderRadius.circular(25)
+                              ),
+                              width: 100,
+                              height: 100,
+                              child: Image.asset("images/instagram.png"),
                             ),
-                            width: 100,
-                            height: 100,
-                            child: Image.asset("images/instagram.png"),
                           ),
-                          Container(
-                            decoration: BoxDecoration(
-                                color: Colors.white,
-                                borderRadius: BorderRadius.circular(25)
+                          GestureDetector(
+                            onTap: (){
+                              abriUrl(urlFB);
+                            },
+                            child: Container(
+                              decoration: BoxDecoration(
+                                  color: Colors.white,
+                                  borderRadius: BorderRadius.circular(25)
+                              ),
+                              width: 100,
+                              height: 100,
+                              child: Image.asset("images/facebook.png"),
                             ),
-                            width: 100,
-                            height: 100,
-                            child: Image.asset("images/facebook.png"),
                           ),
                         ],
                       ),
