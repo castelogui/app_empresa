@@ -20,6 +20,7 @@ class _PreCadastroState extends State<PreCadastro> {
 
   String numero = '+5569999071519';
   String mensagem = '';
+  String saldacao = 'Olá, vim pelo aplicativo e gostaria de realizar um pré cadastro para me matricular no projeto!\n\n';
 
   String opSimNao = '';
   String gpSimNao;
@@ -46,7 +47,14 @@ class _PreCadastroState extends State<PreCadastro> {
   }
   @override
   void setStateMsg(fn) {
-    mensagem = 'Nome%20=%20${newNome}\nSobreome%20=%20${newSobrenome}\nData%20Nascimento%20=%20${newdataNasc}\nEmail%20=%20${newEmail}\nJá%20fez%20aula?%20=%20${gpSimNao}\nDias%20de%20Aula%20=%20${gpDia}';
+    mensagem =
+      '${saldacao}'
+      'Nome%20=%20${newNome}\n'
+      'Sobreome%20=%20${newSobrenome}\n'
+      'Data%20Nascimento%20=%20${newdataNasc}\n'
+      'Email%20=%20${newEmail}\n'
+      'Já%20fez%20aula?%20=%20${gpSimNao}\n'
+      'Dias%20de%20Aula%20=%20${gpDia}';
   }
 
   @override
@@ -431,8 +439,6 @@ class _PreCadastroState extends State<PreCadastro> {
                       setStateData(newdataNasc);
                       setStateEmail(newEmail);
                       setStateMsg((){});
-
-                      print(mensagem.length);
 
                       sendMsgWP(numero, mensagem);
                     },
