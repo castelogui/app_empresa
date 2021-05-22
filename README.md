@@ -18,9 +18,10 @@ Escolher ou criar uma empresa (fictícia) para desenvolver um aplicativo em Flut
 
 Um app para uma escola de música chamada "Uma Sinfonia Diferente". No app contém uma tela Home com botões customizados direcionando para 6 telas. Contém uma tela para cada professor com suas informações profissionais e um botão para contato. Uma tela de pré cadastro de matricula para que o usuário envie seus dados para realizar sua matrícula direcionando-o para o WhatsApp. Contem também funções de abrir links do Instagram e do Facebook da empresa.
 
-### 🧭Layout Inicial
+## 🧭Layout Inicial
 
-[Figma Layout App Empresa](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FIumitsPgxj79mfGKs3sULz%2FLinkTreeClone%3Fnode-id%3D0%253A1)
+### [Figma Layout App Empresa](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FIumitsPgxj79mfGKs3sULz%2FLinkTreeClone%3Fnode-id%3D0%253A1)
+
 ![Layout](https://github.com/castelogui/app_empresa/blob/main/images/images/app_empresa.png)
 
 ---
@@ -41,6 +42,6 @@ Um app para uma escola de música chamada "Uma Sinfonia Diferente". No app cont�
 
 # ✍️
 
-Aluno: Guilherme Castelo
+**Aluno:** Guilherme Castelo
 
-Professor: Andrey Quadros
+**Professor:** Andrey Quadros
