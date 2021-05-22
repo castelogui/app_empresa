@@ -20,8 +20,8 @@ Um app para uma escola de música chamada "Uma Sinfonia Diferente". No app cont�
 
 ### 🧭Layout Inicial
 
-![Figma Layout App Empresa](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FIumitsPgxj79mfGKs3sULz%2FLinkTreeClone%3Fnode-id%3D0%253A1)
-
+[Figma Layout App Empresa](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FIumitsPgxj79mfGKs3sULz%2FLinkTreeClone%3Fnode-id%3D0%253A1)
+![Layout](https://github.com/castelogui/app_empresa/blob/main/images/images/app_empresa.png)
 
 ---
 
