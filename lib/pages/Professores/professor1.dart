@@ -1,3 +1,4 @@
+import 'package:app_empresa/pages/urls/abrirUrl.dart';
 import 'package:flutter/material.dart';
 
 class Professor1 extends StatefulWidget {
@@ -8,6 +9,8 @@ class Professor1 extends StatefulWidget {
 }
 
 class _Professor1State extends State<Professor1> {
+  String url = 'https://wa.me/+5569999071519';
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -84,27 +87,32 @@ class _Professor1State extends State<Professor1> {
 
               Padding(
                 padding: const EdgeInsets.fromLTRB(0, 50, 0, 0),
-                child: Container(
-                  child: Padding(
-                    padding: const EdgeInsets.fromLTRB(0, 6, 0, 0),
-                    child: Text(
-                        "Contato",
-                        style: TextStyle(
-                            fontSize: 30,
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold
-                        ),
-                        textAlign: TextAlign.center
+                child: GestureDetector(
+                  onTap: (){
+                    abriUrl(url);
+                  },
+                  child: Container(
+                    child: Padding(
+                      padding: const EdgeInsets.fromLTRB(0, 6, 0, 0),
+                      child: Text(
+                          "Contato",
+                          style: TextStyle(
+                              fontSize: 30,
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold
+                          ),
+                          textAlign: TextAlign.center
+                      ),
                     ),
-                  ),
-                  width: 150,
-                  height: 45,
-                  decoration: BoxDecoration(
-                      color: Color(0xff5B73F1),
-                      borderRadius: BorderRadius.circular(20),
-                      boxShadow: [
-                        BoxShadow(color: Colors.black, spreadRadius: 1.5)
-                      ]
+                    width: 150,
+                    height: 45,
+                    decoration: BoxDecoration(
+                        color: Color(0xff5B73F1),
+                        borderRadius: BorderRadius.circular(20),
+                        boxShadow: [
+                          BoxShadow(color: Colors.black, spreadRadius: 1.5)
+                        ]
+                    ),
                   ),
                 ),
               )
